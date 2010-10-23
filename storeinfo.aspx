@@ -94,12 +94,12 @@
 								
 				end try
 				'response.write(ex.message)
-				Response.Redirect("thanks.asp?error-on-send=1")
+				Response.Redirect("thanks.aspx?error-on-send=1")
 			end try
 			SmtpMail.SmtpServer = oldServ
 			
-			Response.Redirect("thanks.asp")
+			Response.Redirect("thanks.aspx")
 		Else
-			Response.Redirect("default.asp?msg=1&name="& name & "&company=" & company & "&email=" & email & "&phone=" & phone & "&address1=" & address1 & "&address2=" &address2 & "&city=" &city & "&state=" &state & "&zip=" &zip)
+			Response.Redirect("default.aspx?msg=1&name="& name & "&company=" & company & "&email=" & email & "&phone=" & phone & "&address1=" & address1 & "&address2=" &address2 & "&city=" &city & "&state=" &state & "&zip=" &zip)
 		End If
 %>

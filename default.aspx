@@ -30,61 +30,59 @@
     <link rel="stylesheet" href="main.css" type="text/css" media="screen,print">
 </head>
 <body>
-    <div id="main" style="background-color: pink !important;">
-        <div class="color-bar">
-            &nbsp;
-        </div>
-        <div class="content-wrapper">
-            <div class="header">
-                <div class="header-contact">
-                    <img src="images/logo.gif" alt="SDA Logo"/>
-                </div>
-                <div class="header-contact">
-                    <h2>Stephen Dragon &amp; Associates</h2>
-                    12 Highmount Ave.<br/>
-                    Warren, New Jersey 07059-5454
-                </div>
-                <div class="header-contact" style="margin-top: 30px;">
-                    Phone:<b>(908) 757-7382</b> <br/>
-                    Fax:<b>(908) 753-0872</b> <br/>
-                    <b><a href="mailto:sdragon@NOSPAMdbssda.com">sdragon@NOSPAMdbssda.com</a></b><br/>
-                </div>
-                <div style="float: left; clear: both;">&nbsp;</div>
-            </div>
-            <div class="content">
-                <div class="section">
-                    <p>Since 1984, <span class="sda">Stephen Dragon &amp; Associates</span> has provided complete service in the areas of custom software design as well as modifications to existing financial software products.</p>
-                    <p>We are located in Warren, New Jersey and serve the New York Metropolitan area. We currently provide sales and support for <a href="http://www.cyma.com">CYMA</a> Not for Profit and Financial Management <a href="#cyma">products</a>. </p>
-                    <p>We were actively involved, as a founding member, in the New York Fox User Group, and as the founder of the New Jersey Fox User Group as well as many other professional organizations.</p>
-                    <p>We are also a member of the <a href="http://www.wbpa.org">Warren Professional &amp; Business Association</a>.</p>
-                </div>
-                <div class="section">
-                    <a name="cyma"></a>
-                    <h3>CYMA Products</h3>
-                    <div class="indent">                    
-                        <div style="float: right;">
-                            <img src="images/cyma_logo.gif" alt="CYMA logo"/>
-                        </div>
-                        <div style="float: left; width: 580; margin-right: 5px;">
-                            We provide sales and service for <a href="http://www.cyma.com">CYMA</a> Not for Profit and Financial Mangement products.
-                            <h4>Not for Profit</h4>
-                            <div class="indent">
-                                "Not-For-Profit organizations need an accounting software package designed for the specific nature of the nonprofit industry. Since 1980, thousands of nonprofit clients have depended on CYMA Not-For-Profit Accounting Software (NFP) for their financial needs."<br/>
-                                <a href="http://www.cyma.com/business-accounting-software/nfp.asp">Read more about CYMA Not for Profit</a>
-                            </div>
-                            <h4>Financial Management</h4>
-                            <div class="indent">
-                                "CYMAIV Financial Management System (FMS) represents the most sophisticated accounting software on the market today for growing mid-sized businesses. CYMAIV FMS provides accounting functionality powerful enough for the most demanding user and straightforward for new users."
-                                <a href="http://www.cyma.com/business-accounting-software/fms.asp">Read more about CYMA Financial Management</a>
-                            </div>
-                        </div>
-                        <div style="float: left; clear: both;">&nbsp;</div>
+    <div id="main">
+        <table class="main-table">
+        <td class="color-bar"></td>
+        <td>
+            <div class="content-wrapper">
+                <div class="header">
+                    <div class="header-contact">
+                        <img src="images/logo.gif" alt="SDA Logo"/>
                     </div>
+                    <div class="header-contact">
+                        <h2>Stephen Dragon &amp; Associates</h2>
+                        12 Highmount Avenue<br/>
+                        Warren, New Jersey 07059-5454
+                    </div>
+                    <div class="header-contact" style="margin-top: 30px;">
+                        Phone:<b>(908) 757-7382</b> <br/>
+                        Fax:<b>(908) 753-0872</b> <br/>
+                        <b><a href="mailto:sdragon@dbssda.com">sdragon@dbssda.com</a></b><br/>
+                    </div>
+                    <div style="float: left; clear: both;">&nbsp;</div>
                 </div>
-                <div class="section">
-                    <h3>Contact Us</h3>
-                    <div class="indent">                    
-                        Provide your contact information below and we will contact you.
+                <div class="content">
+                    <div class="section">
+                        <p>Since 1984, <span class="sda">Stephen Dragon &amp; Associates</span> has provided complete service in the area of custom software design as well as modifications to existing financial software products.</p>
+                        <p>We are located in Warren, New Jersey, and serve the New York Metropolitan area. We currently provide sales and support for <a href="http://www.cyma.com">CYMA</a> Not-For-Profit and Financial Management products. </p>
+                        <p>We were involved in founding the New York Fox User Group and the New Jersey Fox User Group.  We have also been actively involved in many other professional organizations.</p>
+                    </div>
+                    <div class="section">
+                        <h3>CYMA Products</h3>
+                        <div class="indent">                    
+                            <div style="float: right;">
+                                <img src="images/cyma_logo.gif" alt="CYMA logo"/>
+                            </div>
+                            <div style="float: left; width: 580; margin-right: 5px;">
+                                We provide sales and service for <a href="http://www.cyma.com">CYMA</a> Not-For-Profit and Financial Management products.
+                                <h4>Not-For-Profit</h4>
+                                <div class="indent">
+                                    "Not-For-Profit organizations need an accounting software package designed for the specific nature of the nonprofit industry. Since 1980, thousands of nonprofit clients have depended on CYMA Not-For-Profit Accounting Software (NFP) for their financial needs."
+                                    <br/><a href="http://www.cyma.com/business-accounting-software/nfp.asp">Read more about CYMA Not-For-Profit</a>
+                                </div>
+                                <h4>Financial Management</h4>
+                                <div class="indent">
+                                    "CYMA Financial Management System (FMS) represents the most sophisticated accounting software on the market today for growing mid-sized businesses. CYMA FMS provides accounting functionality powerful enough for the most demanding user and straightforward for new users."
+                                    <br/><a href="http://www.cyma.com/business-accounting-software/fms.asp">Read more about CYMA Financial Management</a>
+                                </div>
+                            </div>
+                            <div style="float: left; clear: both;">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>Contact Us</h3>
+                        <div class="indent">                    
+                            Provide your contact information below and we will contact you.<br/>
                             <%
                             If msg = 1 Then Response.Write("<span style=""color: red;"">We need at least your name and one way to contact you.</span>")
                             %>
@@ -102,19 +100,32 @@
                             </table>
                             <input type="submit" value="Submit">
                             </form>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>About Us</h3>
+                        <div class="indent">
+                            <p><span class="sda">Stephen Dragon &amp; Associates</span> has provided complete systems analysis, programming, installation, training, and support services to a wide variety 
+                            of business and service organizations in the New York City metropolitan area. We are a member of Microsoft's Solutions Channels program. Staff members have conducted seminars at the Raritan Valley 
+                            Community College and other locations on Networking PC's as well as database technology and various other topics.</p>
+                        </div>
+                    </div>
+                    <div class="section" style="text-align: center; margin: auto !important; width: 200px;">
+                        <!-- BEGIN FINDACCONTINGSOFTWARE.COM BADGE -->
+                        <style type="text/css"><!--@import 'http://findaccountingsoftware.com/pp-19709.css';--></style>
+                        <div class="FasBadge Standard" style="display:none;"><div class="FasBadgeBody">
+                        <p><a class="CompanyName" href="http://findaccountingsoftware.com/reseller/stephen-dragon-and-associates/">Stephen Dragon & Associates</a> has been helping Find <a href="http://findaccountingsoftware.com/">Accounting Software</a> visitors solve their business needs since&nbsp;2004, with products such as:</p>
+                        <ul><li><a href="http://findaccountingsoftware.com/directory/cyma/cyma-iv-not-for-profit-edition/">CYMA IV Not-for-Profit Edition </a></li><li><a href="http://findaccountingsoftware.com/directory/cyma/cyma-iv-financial-management-system/">CYMA IV Financial Management System (FMS)</a></li></ul>
+                        </div><div class="FasBadgeFooter"></div></div><script type="text/javascript" src="http://findaccountingsoftware.com/pp-19709.js"></script>
+                        <!-- END FINDACCONTINGSOFTWARE.COM BADGE -->
                     </div>
                 </div>
-                <div class="section">
-                    <h3>About Us</h3>
-                    <div class="indent">
-                        <p><span class="sda">Stephen Dragon &amp; Associates</span> has provided complete systems analysis, programming, installation, training, and support services to a wide variety 
-                        of business and service organizations in the New York City metropolitan area. We are a member of Microsoft's Solutions Channels program. Staff members have conducted seminars at the Raritan Valley 
-                        Community College and other locations on Networking PC's as well as database technology and various other topics.</p>
-                    </div>
-                </div>
+                <div class="thinline">&nbsp;</div>
+                <div class="copyright">Copyright 1999-<%= year(now()) %> Stephen Dragon &amp; Associates</div>
+                <div style="float: none; clear: both;"></div>
             </div>
-        </div>
-        <div style="float: left; clear: both;"></div>
+        </td>
+        </table>
     </div>
 </body>
 </html>
