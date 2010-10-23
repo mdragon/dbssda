@@ -100,6 +100,6 @@
 			
 			Response.Redirect("thanks.asp")
 		Else
-			Response.Redirect("contactform.asp?msg=1&name="& name & "&company=" & company & "&email=" & email & "&phone=" & phone & "&address1=" & address1 & "&address2=" &address2 & "&city=" &city & "&state=" &state & "&zip=" &zip)
+			Response.Redirect("default.asp?msg=1&name="& name & "&company=" & company & "&email=" & email & "&phone=" & phone & "&address1=" & address1 & "&address2=" &address2 & "&city=" &city & "&state=" &state & "&zip=" &zip)
 		End If
 %>

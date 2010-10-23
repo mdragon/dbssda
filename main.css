@@ -1,21 +1,21 @@
 body
 {
+	background: #4A403F;
 	font-family: verdana;
 	font-size: 0.8em;
-	background: #4A403F; 
-	margin: 0px;
+	margin: auto;
+    text-align: center;
 }
 
-td
+h2, h3, h4, .sda, a.link
 {
-	font-size: 0.8em;
+	color: #990100;
 }
 
-h3
+h2, h3, h4
 {
 	margin: 0px;
 	margin-top: 4px;
-	color: #990100;
 	font-weight: bold;
 	font-family: arial;
 	font-size: 1.4em;
@@ -23,88 +23,84 @@ h3
 	border: 0px
 }
 
-a .link
+h2
 {
-	color: #990100;
-	font-family: arial;
-	font-size: 1.3em;
-	font-weight: bold;
-	line-height: 1.5em;
+    font-size: 1.6em;
 }
 
-.topbar
+h4
 {
-	background: black; 
-	height: 20px;
+    font-size: 1.2em;
 }
 
-.logobar
+p
 {
-	background: #990100; 
-	height: 60px;
+    margin: 0 0 5px !important;
 }
 
-.logospacer
+td
 {
-	margin-left: 10px; 
-	text-align: top;
+    padding: 2px 3px 2px 3px !important;
 }
 
-#nav
+table
 {
-	background: #868686; 
-	margin-left: 10px; 
-	width: 140px; 
-	float: left; 
-	font-color: #990100; 
-	text-align: center; 
-	height: 150px;
+    margin: 0 !important;
+    width: auto !important;
 }
 
-.navlink
+.indent
 {
-	text-decoration: none;
+    margin-left: 10px;
 }
 
-#main
+.header
 {
-	background: #efefef; 
-	width: 580px; 
-	float: left; 
-	margin-left: 30px;
-}
-
-.maintext
-{
-	padding-left: 2px; 
-	padding-right: 2px; 
-	padding-bottom: 2px;
 }
 
 .sda
 {
-	color: #990100;
 	font-weight: bold;
 }
 
-.thinline
+.section
 {
-	background: #990100; 
-	height: 4px; 
-	min-height: 4px; 
-	float: left; 
-	clear: left; 
-	width: 580px; 
-	line-height: 0.5em;
+    float: none;
+    clear: both;
 }
 
-.copyright
+.header-contact
 {
-	float: left; 
-	clear: left; 
-	width: 580px; 
-	text-align: center; 
-	font-size: 0.85em; 
-	padding-top: 2px; 
-	padding-bottom: 2px;
+    float: left;
+}
+
+#main
+{
+    background: #ffffff;
+    margin: auto;
+    text-align: left;
+	width: 760px; 
+}
+
+.color-bar
+{
+	background-color: #990100;
+    float: left;
+    height: 100%;
+    margin-right: 10px;
+    margin-top: -10px;
+    width: 30px;
+}
+
+.content-wrapper
+{
+    float: left;
+    padding: 5px;
+    width: 690px;
+}
+
+.content
+{
+    margin-top: 15px;
+    float: left;
 }
