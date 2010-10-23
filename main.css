@@ -1,0 +1,110 @@
+body
+{
+	font-family: verdana;
+	font-size: 0.8em;
+	background: #4A403F; 
+	margin: 0px;
+}
+
+td
+{
+	font-size: 0.8em;
+}
+
+h3
+{
+	margin: 0px;
+	margin-top: 4px;
+	color: #990100;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 1.4em;
+	padding: 0px;
+	border: 0px
+}
+
+a .link
+{
+	color: #990100;
+	font-family: arial;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.topbar
+{
+	background: black; 
+	height: 20px;
+}
+
+.logobar
+{
+	background: #990100; 
+	height: 60px;
+}
+
+.logospacer
+{
+	margin-left: 10px; 
+	text-align: top;
+}
+
+#nav
+{
+	background: #868686; 
+	margin-left: 10px; 
+	width: 140px; 
+	float: left; 
+	font-color: #990100; 
+	text-align: center; 
+	height: 150px;
+}
+
+.navlink
+{
+	text-decoration: none;
+}
+
+#main
+{
+	background: #efefef; 
+	width: 580px; 
+	float: left; 
+	margin-left: 30px;
+}
+
+.maintext
+{
+	padding-left: 2px; 
+	padding-right: 2px; 
+	padding-bottom: 2px;
+}
+
+.sda
+{
+	color: #990100;
+	font-weight: bold;
+}
+
+.thinline
+{
+	background: #990100; 
+	height: 4px; 
+	min-height: 4px; 
+	float: left; 
+	clear: left; 
+	width: 580px; 
+	line-height: 0.5em;
+}
+
+.copyright
+{
+	float: left; 
+	clear: left; 
+	width: 580px; 
+	text-align: center; 
+	font-size: 0.85em; 
+	padding-top: 2px; 
+	padding-bottom: 2px;
+}
