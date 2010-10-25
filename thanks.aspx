@@ -1,4 +1,4 @@
-<%@ Page Language="vb" debug="true"%>
+<%@ Page Language="vb" Debug="true" AutoEventWireup="false"%>
 <%
     Dim name	as String
     Dim company as String
@@ -26,14 +26,14 @@
 <head>
     <title>Stephen Dragon &amp; Associates</title>
     <link rel="stylesheet" href="screen.css" type="text/css" media="screen,print">
-    <link rel="stylesheet" href="ie.css" type="text/css" media="screen,print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="main.css" type="text/css" media="screen,print">
 </head>
 <body>
     <div id="main">
-        <div class="color-bar">
-            &nbsp;
-        </div>
+        <table class="main-table">
+        <td class="color-bar"></td>
+        <td>
         <div class="content-wrapper">
             <div class="header">
                 <div class="header-contact">
@@ -41,13 +41,13 @@
                 </div>
                 <div class="header-contact">
                     <h2>Stephen Dragon &amp; Associates</h2>
-                    12 Highmount Ave.<br/>
+                        12 Highmount Avenue<br/>
                     Warren, New Jersey 07059-5454
                 </div>
                 <div class="header-contact" style="margin-top: 30px;">
                     Phone:<b>(908) 757-7382</b> <br/>
                     Fax:<b>(908) 753-0872</b> <br/>
-                    <b><a href="mailto:sdragon@NOSPAMdbssda.com">sdragon@NOSPAMdbssda.com</a></b><br/>
+                        <b><a href="mailto:sdragon@dbssda.com">sdragon@dbssda.com</a></b><br/>
                 </div>
                 <div style="float: left; clear: both;">&nbsp;</div>
             </div>
@@ -63,10 +63,16 @@
                     <%
                     end if
                     %>
+					<br/><br/>
+					<a href="default.aspx">Return to the main page</a><br/><br/>
                 </div>
             </div>
+                <div class="thinline">&nbsp;</div>
+                <div class="copyright">Copyright 1999-<%= year(now()) %> Stephen Dragon &amp; Associates</div>
+                <div style="float: none; clear: both;"></div>
         </div>
-        <div style="clear: left;"></div>
+        </td>
+        </table>
     </div>
 </body>
 </html>

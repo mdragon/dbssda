@@ -1,4 +1,4 @@
-<%@ Page Language="vb" debug="true"%>
+<%@ Page Language="vb" Debug="true" AutoEventWireup="false"%>
 <%
     Dim name	as String
     Dim company as String
@@ -26,7 +26,7 @@
 <head>
     <title>Stephen Dragon &amp; Associates</title>
     <link rel="stylesheet" href="screen.css" type="text/css" media="screen,print">
-    <link rel="stylesheet" href="ie.css" type="text/css" media="screen,print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="main.css" type="text/css" media="screen,print">
 </head>
 <body>
